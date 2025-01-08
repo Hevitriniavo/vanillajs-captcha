@@ -1,6 +1,5 @@
 import './style.css'
 
-document.getElementById("env").innerHTML = `API_KEY=${import.meta.env.VITE_API_KEY} and URL_API_INTEGRATION ${import.meta.env.VITE_URL_API_INTEGRATION}`;
 
 document.getElementById("do-action").addEventListener('click', function() {
   showMyCaptcha()
